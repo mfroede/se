@@ -1,0 +1,2 @@
+serviceClass: de.bht.se.semesterprojekt.gwt.client.GreetingService
+path: 464CB82A79F7B7B3E692D6F1D28B3F13.gwt.rpc

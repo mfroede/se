@@ -1,0 +1,2 @@
+# Module de_bht_se_semesterprojekt_gwt
+# RPC service class, partial path of RPC policy file

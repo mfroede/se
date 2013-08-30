@@ -1,0 +1,92 @@
+\usepackage[lmargin=3.5cm,rmargin=3.0cm,tmargin= 2.5cm,bmargin=4.3cm]{geometry}
+
+% ------------------------------------------------------------------------
+%	Seitenlayout
+% ------------------------------------------------------------------------
+\usepackage{setspace}
+\onehalfspace         								% 1,5-facher Zeilenabstand
+\setlength\marginparwidth{2.5cm} 
+\setlength\parskip{0.10in}
+
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage[pdfborder=0 0 0, pdfpagelabels, plainpages=false, linktocpage=false, pdfcreator={LaTeX}]{hyperref}
+\usepackage{listings}
+
+\setkomafont{sectioning}{\normalfont\bfseries}
+
+% ------------------------------------------------------------------------
+%	Einstellen der deutschen Sprache, Verwendung von Umlauten, etc.
+% ------------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\nonfrenchspacing
+
+\usepackage[utf8]{inputenc}
+
+% ------------------------------------------------------------------------
+%	Kopfzeilen
+% ------------------------------------------------------------------------
+\usepackage[automark,headinclude]{scrpage2}
+\automark[section]{section}
+
+\pagestyle{scrheadings}
+\clearscrheadings
+\clearscrplain
+\ohead{\rigthmark}
+\ofoot{\thepage}
+\setheadsepline{.4pt}
+\setlength{\headheight}{1.1\baselineskip}
+
+% ------------------------------------------------------------------------
+%	Listings
+% ------------------------------------------------------------------------
+
+\lstset{numbers=left, breaklines=true, language=Java}
+
+\definecolor{green}{rgb}{0.0,0.5,0.0}
+\definecolor{yellow}{rgb}{0.5,0.5,0.0}
+\definecolor{darkGray}{rgb}{0.9,0.9,0.9}
+\definecolor{mauve}{rgb}{0.5,0,0.7}
+
+\lstdefinestyle{codeSytle}{
+  morekeywords={},
+  emph={},
+  columns=flexible,
+  showstringspaces=false,
+  frame=single,
+  frameround=tttt,
+  basicstyle=\scriptsize \ttfamily,
+  keywordstyle=\bfseries\color{yellow},
+  stringstyle=\color{green},
+  backgroundcolor=\color{darkGray},
+  emphstyle=\color{mauve},
+}
+
+% ------------------------------------------------------------------------
+%	PDF-Informationen
+% ------------------------------------------------------------------------
+
+\title{Titel}
+
+\author{Autor}
+
+\date{Somersemester 2013}
+
+\pdfinfo{
+  /Title    (	)
+  /Author   (	)
+  /Creator  (LaTeX)
+  /Producer (LaTeX)
+  /Subject  (Semesterarbeit)
+  /Keywords (GWT,MVP)
+}

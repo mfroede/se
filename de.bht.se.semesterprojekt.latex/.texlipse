@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Fri Aug 30 06:29:41 CEST 2013
+markTmpDer=true
+builderNum=2
+outputDir=Output
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=main.tex
+outputFile=SE_GWT.pdf
+langSpell=de
+markDer=true
+srcDir=source
